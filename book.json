@@ -1,0 +1,6 @@
+{
+  "gitbook": ">=2.0.0",
+  "title":"gitbook_notebook_zh",
+  "language":"zh-cn",
+  "description":"gitbook笔记本-中文版"
+}
