@@ -4,7 +4,7 @@ Gitbook安装
 Gitbook是从NMP安装的，命令行：
 
 ```bash
-$ npm install gitbook -g
+$ npm install -g gitbook-cli
 ```
 
 安装完之后，你可以检验下是否安装成功：
