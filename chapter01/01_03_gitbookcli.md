@@ -9,7 +9,7 @@ Gitbook是一个命令行工具，使用方法：
 $ gitbook serve ./图书名称
 ```
 
-***TIPS：第一次运行`gitbook serve`命令会下载按照一些东西会慢一些，之后就会很快了。***
+TIPS：第一次运行gitbook serve命令会下载一些东西，所以会比较慢，请耐心等待。
 
 **输出一个静态网站**
 
