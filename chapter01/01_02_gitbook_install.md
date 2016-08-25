@@ -1,7 +1,7 @@
 Gitbook安装
 ====
 
-Gitbook是从NMP安装的，命令行：
+Gitbook是从NMP安装的，并且必须以root身份运行，否则会报错。
 
 ```bash
 $ npm install -g gitbook-cli
