@@ -46,3 +46,25 @@ gitbook           index.html        publish
 ```
 
 无论哪种方式，你都可以将这个文件打包，然后把你的书发给你的朋友们了！
+
+## 帮助
+
+如果你在运行 `gitbook serve .` 命令时报了这个错误：
+
+```
+Live reload server started on port: 35729
+Press CTRL+C to quit ...
+
+/usr/local/lib/node_modules/gitbook-cli/node_modules/_npm@5.1.0@npm/node_modules/graceful-fs/polyfills.js:287
+      if (cb) cb.apply(this, arguments)
+                 ^
+
+TypeError: cb.apply is not a function
+    at /usr/local/lib/node_modules/gitbook-cli/node_modules/_npm@5.1.0@npm/node_modules/graceful-fs/polyfills.js:287:18
+```
+
+这其实是一个依赖的问题，你可以尝试安装旧的 gitbook-cli 版本。
+
+```
+npm install gitbook-cli@2.1.2 --global
+```
