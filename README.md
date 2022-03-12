@@ -4,7 +4,7 @@
 
 本书将简单介绍如何安装、编写、生成、发布一本在线图书。
 
-点击[**这里**](https://chanshuyi.github.io/gitbook_notebook)开始阅读！
+点击[**这里**](SUMMARY.md)开始阅读！
 
 《GitBook笔记本》的 GitHub 地址在[这里](https://github.com/chanshuyi/gitbook_notebook)。如果你觉得这个项目不错，请点击 Star 一下，您的支持是我最大的动力。
 
